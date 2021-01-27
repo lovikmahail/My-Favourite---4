@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    color:#00ff08;
+    background:linear-gradient(to bottom right, #fcae40 0%, #fd1d1d 50%, #833ab4 100%);
+}
+
+img {
+    border: solid;
+    margin: 20px;
+    border-color: #0099ff;
+    border-width: 10px;
+}
+h2{
+    font-family: 'Courgette', cursive;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(.9);
+}
+.line{
+    height: 6px;
+    width: 300px;
+    background-color: black;
+    margin: 8px auto;
+}
